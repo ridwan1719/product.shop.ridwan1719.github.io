@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row header">
+            <h5 class="u-bold">Everyday Shop</h5>
+        </div>
+        <div class="row">
+            <div class="six columns style_col">
+                <p class="product-id">#1</p>
+                <p class="product-name">RICE</p>
+                <p><b class="price_of">100</b> TK per KG</p>
+                <div class="quantity-container">
+                    <input type="number" id="quantity" value="1" min="1" class="quantity-input">
+                    <span class="quantity-label">kg</span>
+                </div>
+                <button class="button-primary">Add to Cart</button>
+            </div>
+            <div class="six columns style_col">
+                <p class="product-id">#2</p>
+                <p class="product-name">Wheat</p>
+                <p> <b class="price_of">50</b> TK per KG</p>
+                <div class="quantity-container">
+                    <input type="number" id="quantity" value="1" min="1" class="quantity-input">
+                    <span class="quantity-label">kg</span>
+                </div>
+                <button class="button-primary">Add to Cart</button>
+            </div>    
+        </div>
+        <div class="row">
+            <div class="six columns style_col">
+                <p class="product-id">#3</p>
+                <p class="product-name">Meat</p>
+                <p><b class="price_of">500</b> TK per KG</p>
+                <div class="quantity-container">
+                    <input type="number" id="quantity" value="1" min="1" class="quantity-input">
+                    <span class="quantity-label">kg</span>
+                </div>
+                <button class="button-primary">Add to Cart</button>
+            </div>
+            <div class="six columns style_col">
+                <p class="product-id">#4</p>
+                <p class="product-name">Lentil</p>
+                <p><b class="price_of">35</b> TK per KG</p>
+                <div class="quantity-container">
+                    <input type="number" id="quantity" value="1" min="1" class="quantity-input">
+                    <span class="quantity-label">kg</span>
+                </div>
+                <button class="button-primary">Add to Cart</button>
+            </div>    
+        </div>
+        <div class="row">
+            <div class="six columns style_col">
+                <p class="product-id">#5</p>
+                <p class="product-name">Oil</p>
+                <p><b class="price_of">170</b> TK per KG</p>
+                <div class="quantity-container">
+                    <input type="number" id="quantity" value="1" min="1" class="quantity-input">
+                    <span class="quantity-label">kg</span>
+                </div>
+                <button class="button-primary">Add to Cart</button>
+            </div>
+        </div>
+
+
+
+    </div>
+    <hr>
+ 
+    <div class="container">
+        <div class="row header">
+            <h5 class="u-bold">Shopping Cart</h5>
+        </div>
+        <div class="row">
+            <div class="ten columns">
+                <table>
+                    <thead>
+                        <th>Product ID</th>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                        <th> </th>
+                    </thead>
+                    <tbody id="list-products">
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="two columns">
+                <h5>Total(All products)</h5>
+                <h5 id="total-sum">0</h5>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve columns">
+                <button class="go-to-payment"  disabled>Go To payment</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>

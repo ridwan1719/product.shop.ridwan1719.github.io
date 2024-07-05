@@ -1,0 +1,35 @@
+.style_col{
+    border: .5px solid #29292927 ;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 1vh 1vw;
+    padding: 3vh 0vw;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: lightblue;
+}
+
+#remove-list{
+    background-color: rgba(255, 0, 0, 0.642);
+    color: white;
+    border: none;
+}
+
+#remove-list:hover{
+    background-color: rgba(255, 0, 0, 0.9);
+
+}
+
+.go-to-payment{
+    border: none;
+    background-color: lightblue;
+}
